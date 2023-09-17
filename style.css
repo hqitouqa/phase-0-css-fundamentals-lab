@@ -1,5 +1,40 @@
+h1{
+  text-align: center;
+}
 body {
   width: 100%;
   height: 100%;
   margin: 0;
+
+  img {
+    display: block;
+    margin: auto;
+    width: 50%;
+  }
+
+  a:link{
+  padding-left: 10px;
+  padding-right: 10px;
+  background: gray;
+  align-items: center;
+  }
+  figcaption{
+  text-align: center;
+  font-size: smaller;
+  }
+  #featured_property{
+  size: 800px;
+  text-align: center;
+  }
+  #details {
+  float: left;
+  }
+  div * {
+  
+  background-color: red;
+  text-align: center;
+  width: 25%;
+  
+  ;
+}
 }
